@@ -23,5 +23,4 @@ The US Federal Election Commission is in charge of publishing data on contributi
 * Jupyter Notebook 
 
 ## Contact
-
 If there are any questions or concerns the author may be contacted to discuss analysis and methodology.
