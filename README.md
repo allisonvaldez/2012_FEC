@@ -40,10 +40,42 @@ The analysis demonstrates strong fundamentals in **data cleaning**, **aggregatio
 - Geographic trends using state‑level aggregation  
 - Clear, well‑labeled charts designed for readability  
 
-### 🧠 Insights
-- Identified which professions contributed most to each candidate  
-- Compared donation patterns between small and large donors  
-- Highlighted regional differences in political giving  
+---
+
+## 🔑 Key Findings
+
+### 🗳️ Candidate Contribution Totals
+- Barack Obama and Mitt Romney received the majority of individual contributions in the 2012 election cycle.  
+- Romney’s campaign attracted more large‑dollar donations, while Obama received a higher volume of small‑dollar contributions.
+
+### 💼 Occupation & Industry Trends
+- High‑earning professions such as finance, investment, law, and consulting contributed disproportionately to Romney.  
+- Education, healthcare, and public‑sector workers contributed more frequently to Obama.  
+- “Retired” and “Self‑Employed” were among the largest donor categories overall.
+
+### 🏢 Employer Patterns
+- Major financial institutions and corporate employers leaned toward Romney.  
+- Universities, hospitals, and tech‑adjacent employers leaned toward Obama.  
+- Donation patterns reflected clear industry‑level political alignment.
+
+### 💵 Donation Amount Behavior
+- Obama’s donor base included more small‑dollar contributions (under $200).  
+- Romney’s donor base skewed toward larger contributions, often $1,000+.  
+- The distribution of donation amounts revealed distinct fundraising strategies.
+
+### 🌎 Geographic Insights
+- Coastal states such as California, New York, and Massachusetts contributed heavily to Obama.  
+- Southern and Midwestern states contributed more to Romney.  
+- State‑level aggregation highlighted clear regional political divides.
+
+### 📈 Fundraising Peaks
+- Both campaigns saw donation spikes around debates, primaries, and major campaign events.  
+- Obama’s fundraising was more consistent month‑to‑month, while Romney’s showed sharper peaks.
+
+### 🧹 Data Quality Observations
+- Employer and occupation fields required extensive cleaning due to inconsistent formatting.  
+- Many entries needed correction or removal (e.g., “INFORMATION REQUESTED,” “NONE,” “RETIRED”).  
+- Normalizing these fields significantly improved the accuracy of occupation and employer analysis.
 
 ---
 
@@ -99,6 +131,8 @@ jupyter notebook notebooks/fec_analysis.ipynb
 - How to design clear, informative visualizations  
 - How to communicate insights through data storytelling  
 - How to structure a reproducible analysis workflow  
+- How to identify patterns and trends across occupations, employers, and geographic regions  
+- How to handle inconsistent categorical data and improve data quality through normalization  
 
 ---
 
@@ -108,6 +142,7 @@ jupyter notebook notebooks/fec_analysis.ipynb
 - Build a small dashboard (Streamlit or Flask)  
 - Add geographic heatmaps  
 - Compare multiple election cycles  
+- Automate data updates from FEC APIs  
 
 ---
 
@@ -116,4 +151,4 @@ jupyter notebook notebooks/fec_analysis.ipynb
 **Allison Valdez**  
 Full‑Stack Software Engineer  
 GitHub: https://github.com/allisonvaldez  
-LinkedIn: https://www.linkedin.com/in/alyv/
+LinkedIn: https://linkedin.com/in/yourusername
