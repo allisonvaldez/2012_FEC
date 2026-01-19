@@ -151,4 +151,4 @@ jupyter notebook notebooks/fec_analysis.ipynb
 **Allison Valdez**  
 Full‑Stack Software Engineer  
 GitHub: https://github.com/allisonvaldez  
-LinkedIn: https://linkedin.com/in/yourusername
+LinkedIn: https://www.linkedin.com/in/alyv/
